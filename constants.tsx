@@ -15,11 +15,11 @@ import {
 import { Skill, Job, Service, BlogPost, SocialLink } from "./types";
 
 export const PERSONAL_INFO = {
-  name: "Ferdaus",
-  role: "Senior Software Engineer",
+  name: "FERDAUS",
+  role: "Software Developer and CEO at ",
   email: "ferdaussk.dev@gmail.com",
-  location: "Uttara, Sector - 6",
-  intro: "I craft high-performance digital experiences. Specializing in the WordPress ecosystem and modern JavaScript stacks, I bridge the gap between robust backend architecture and interactive frontend design.",
+  location: "H 59, P 14985, F G-B > Kuri-Para Rd, Dhaka - 1230",
+  intro: " I craft high-performance digital experiences. Specializing in the WordPress, Shopify, Flutter ecosystem and modern JavaScript stacks, I bridge the gap between robust backend architecture and interactive frontend design.",
   github: "https://github.com/Ferdaussk",
   linkedin: "https://www.linkedin.com/in/md-jannat-ferdaus-473479216/"
 };
@@ -37,7 +37,7 @@ export const SKILLS: Skill[] = [
 
 export const SERVICES: Service[] = [
   {
-    title: "Advanced WordPress",
+    title: "Advanced WordPress / Shopify Development",
     description: "Custom plugin architecture, headless WP setups, and Gutenberg block development for enterprise needs.",
     icon: Globe,
   },
@@ -48,11 +48,11 @@ export const SERVICES: Service[] = [
   },
   {
     title: "Full-Stack Web Apps",
-    description: "Scalable SaaS applications using Laravel or Node.js backends with reactive frontends.",
+    description: "Scalable SaaS applications using Laravel, React or Node.js backends with reactive frontends.",
     icon: Database,
   },
   {
-    title: "Mobile Solutions",
+    title: "Mobile Solutions / Flutter",
     description: "Cross-platform mobile applications built with Flutter, ensuring native performance on iOS and Android.",
     icon: Smartphone,
   },

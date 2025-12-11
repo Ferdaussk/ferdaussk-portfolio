@@ -8,9 +8,6 @@ const Footer: React.FC = () => {
         <p className="text-secondary text-sm">
           &copy; {new Date().getFullYear()} <span className="text-white font-medium">{PERSONAL_INFO.name}</span>. All rights reserved.
         </p>
-        <p className="text-slate-600 text-xs mt-2">
-            Designed & Built with <span className="text-accent">React</span> & <span className="text-accent">Tailwind</span>
-        </p>
       </div>
     </footer>
   );
