@@ -18,7 +18,7 @@ export const PERSONAL_INFO = {
   name: "FERDAUS",
   role: "Software Developer and CEO at ",
   email: "ferdaussk.dev@gmail.com",
-  location: "H 59, P 14985, F G-B > Kuri-Para Rd, Dhaka - 1230",
+  location: 'F G-B, H 59, Kuri-Para Rd, Dhaka - 1230',
   intro: " I craft high-performance digital experiences. Specializing in the WordPress, Shopify, Flutter ecosystem and modern JavaScript stacks, I bridge the gap between robust backend architecture and interactive frontend design.",
   github: "https://github.com/Ferdaussk",
   linkedin: "https://www.linkedin.com/in/md-jannat-ferdaus-473479216/"

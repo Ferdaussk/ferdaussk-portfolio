@@ -16,14 +16,41 @@ const Contact: React.FC = () => {
     setFormData(prev => ({ ...prev, [e.target.name]: e.target.value }));
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  // const handleSubmit = (e: React.FormEvent) => {
+  //   e.preventDefault();
+  //   setStatus('submitting');
+  //   setTimeout(() => {
+  //     setStatus('success');
+  //     setFormData({ name: '', email: '', subject: '', message: '' });
+  //     setTimeout(() => setStatus('idle'), 3000);
+  //   }, 1500);
+  // };
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setStatus('submitting');
-    setTimeout(() => {
-      setStatus('success');
-      setFormData({ name: '', email: '', subject: '', message: '' });
-      setTimeout(() => setStatus('idle'), 3000);
-    }, 1500);
+
+    try {
+        const response = await fetch('https://backend.lotussk.com/wp-json/contact-form/v1/submit', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(formData)
+        });
+
+        const result = await response.json();
+
+        if (result.success) {
+            setStatus('success');
+            setFormData({ name: '', email: '', subject: '', message: '' });
+            setTimeout(() => setStatus('idle'), 3000);
+        } else {
+            setStatus('error');
+            alert(result.message);
+        }
+    } catch (err) {
+        console.error(err);
+        setStatus('error');
+        alert('Something went wrong. Please try again later.');
+    }
   };
 
   return (
