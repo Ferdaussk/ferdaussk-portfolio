@@ -60,8 +60,8 @@ export const SERVICES: Service[] = [
 
 export const EXPERIENCE: Job[] = [
   {
-    company: "CR ProWeb",
-    role: "Senior Software Developer",
+    company: "DevsZon",
+    role: "Software Developer",
     period: "2025 - Present",
     description: "Leading the technical strategy for scalable web solutions.",
     achievements: [
@@ -72,8 +72,19 @@ export const EXPERIENCE: Job[] = [
   },
   {
     company: "Best WP Developer",
-    role: "Software Engineer",
+    role: "Software Developer",
     period: "2020 - 2025",
+    description: "Specialized in product development for the Envato marketplace.",
+    achievements: [
+      "Created top-selling WordPress themes on ThemeForest.",
+      "Optimized database queries reducing load times by 40%.",
+      "Mentored junior developers in React and PHP best practices."
+    ]
+  },
+  {
+    company: "Best WP Developer",
+    role: "Intern Developer",
+    period: "2020 - 2021",
     description: "Specialized in product development for the Envato marketplace.",
     achievements: [
       "Created top-selling WordPress themes on ThemeForest.",
@@ -87,7 +98,17 @@ export const EXPERIENCE: Job[] = [
     period: "2019 - 2020",
     description: "Focused on client-side customization and delivery.",
     achievements: [
-      "Delivered 20+ successful client projects with 95% satisfaction rate.",
+      "Delivered 50+ successful client projects with 95% satisfaction rate.",
+      "Managed server migrations and security hardening for client sites."
+    ]
+  },
+  {
+    company: "3 Cube Tech Care",
+    role: "WordPress Developer (Intern)",
+    period: "2019Feb - 2019Aug",
+    description: "Focused on client-side customization and delivery.",
+    achievements: [
+      "Delivered 10+ successful client projects with 70% satisfaction rate.",
       "Managed server migrations and security hardening for client sites."
     ]
   },
