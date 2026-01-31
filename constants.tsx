@@ -15,7 +15,7 @@ import {
 import { Skill, Job, Service, BlogPost, SocialLink } from "./types";
 
 export const PERSONAL_INFO = {
-  name: "FERDAUS SK",
+  name: "FERDAUS",
   role: "Software Developer and CEO at ",
   email: "ferdaussk.dev@gmail.com",
   location: 'F G-B, H 59, Kuri-Para Rd, Dhaka - 1230',
