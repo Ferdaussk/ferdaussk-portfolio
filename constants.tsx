@@ -149,7 +149,7 @@ export const BLOG_POSTS: BlogPost[] = [
 
       <p>By implementing these changes, I recently helped a client improve their PageSpeed score from 45 to 92.</p>
     `,
-    date: "Sep 22, 2023",
+    date: "Sep 22, 2023", 
     category: "E-Commerce",
     image: "https://images.unsplash.com/photo-1556742049-0cfed4f7a07d?auto=format&fit=crop&q=80&w=1000"
   },
